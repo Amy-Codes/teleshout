@@ -1,4 +1,5 @@
-export const LetterButton = ({letter, handleOnLetterPress}) => {
+import "./LetterButton.css";
+export const LetterButton = ({ letter, handleOnLetterPress }) => {
   return (
     <button
       onClick={() => {
@@ -9,3 +10,4 @@ export const LetterButton = ({letter, handleOnLetterPress}) => {
     </button>
   );
 };
+
